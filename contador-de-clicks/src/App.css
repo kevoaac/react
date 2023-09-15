@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+html,
+body{
+  background-color: #1b1b32;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato, sans-serif;
+
+}
+.react-logo-contenedo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20;
+}
+.react-logo{
+  height: 200px;
+}
+.contenedor-principal{
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
