@@ -1,0 +1,15 @@
+.boton-color-random {
+  width: auto;
+  padding: 15px 20px;
+  color: #080302;
+  background-color: #9fd9e9;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid white ;
+  transition: all 0.3s ease;
+}
+
+.boton-color-random:hover {
+  border: 2px solid #124f3e ;
+}

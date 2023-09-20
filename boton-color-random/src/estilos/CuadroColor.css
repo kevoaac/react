@@ -1,0 +1,41 @@
+.cuadro-color {
+  min-width: 400px;
+  min-height: 150px;
+  max-height: 300px;
+  border-radius: 10px;
+  border: 1px solid #f7e3de;
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedor-imagen {
+  width: 150px;
+  height: 100%;
+  padding: 10px;
+}
+
+.contenedor-imagen img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.contenedor-texto {
+  min-width: 250px;
+  padding: 10px;
+  overflow-wrap: anywhere;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contenedor-texto .usuario,
+.correo {
+  padding: 0;
+  margin: 0;
+}
