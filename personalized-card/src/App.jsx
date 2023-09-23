@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useState } from 'react'
+import { useState } from 'react';
 import Boton from './componentes/Boton';
 import CuadroColor from './componentes/CuadroColor';
 import InputTexto from './componentes/InputTexto';
