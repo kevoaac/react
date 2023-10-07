@@ -4,5 +4,8 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "eslint": "^8.50.0"
   }
 }
