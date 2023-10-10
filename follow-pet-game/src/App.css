@@ -1,0 +1,44 @@
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  gap: 2rem;
+}
+
+section .pet-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.pets {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 95vh;
+  height: 95vh;
+  gap: 0.5rem;
+}
+
+.countdown-timer {
+  grid-column: 6/12;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.game-view {
+  border: 2px solid white;
+  border-radius: 10px;
+  grid-column: 2/16;
+  grid-row: 2/16;
+}
+
+.myButton {
+  grid-column: 6/12;
+  grid-row: 16/17;
+}
