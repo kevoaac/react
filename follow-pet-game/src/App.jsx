@@ -9,7 +9,7 @@ import CountdownTimer from './components/CountDownTimer'
 
 
 function App() {
-  const timeRemaining = 100
+  const timeRemaining = 10
 
 
   const [lastScore, setLastScore] = useState(-1)
