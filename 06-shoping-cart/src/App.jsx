@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Cart />
       <Products products={filteredProducts} />
-      <Footer />
+      {/* <Footer /> */}
     </CartProvider>
   )
 }
