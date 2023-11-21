@@ -25,6 +25,13 @@ main {
   gap: 0.5rem;
 }
 
+section .info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+}
+
 .countdown-timer {
   grid-column: 6/12;
   grid-row: 1/2;

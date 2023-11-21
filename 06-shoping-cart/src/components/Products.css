@@ -7,8 +7,9 @@
 
 .products ul {
   display: grid;
+  min-width: 100%;
   grid-template-columns: repeat(auto-fit,
-      minmax(200px,
+      minmax(250px,
         1fr));
   gap: 1rem;
 }

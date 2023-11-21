@@ -1,3 +1,7 @@
 body>img {
   user-select: none;
 }
+
+.content {
+  width: 100%;
+}

@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import hamster from '../img/hamstercrop.png'
+//import hamster from '../img/hamstercrop.png'
+import capibara from '../img/capibara.png'
 import { useState } from 'react';
 
 function Pet({ handleHover, handleLeave, position, gameOn }) {
@@ -24,8 +25,8 @@ function Pet({ handleHover, handleLeave, position, gameOn }) {
           //backgroundColor: 'red',
           borderRadius: '50%',
           padding: '5px',
-          width: '50px',
-          height: '50px',
+          width: '70px',
+          height: '70px',
           overflow: 'hidden',
           visibility: gameOn ? 'visible' : 'hidden',
           ...petStyle
@@ -36,7 +37,7 @@ function Pet({ handleHover, handleLeave, position, gameOn }) {
       <img
         onMouseEnter={() => setPetStyle(style2)}
         onMouseLeave={() => setPetStyle(style1)}
-        src={hamster}
+        src={capibara}
         alt="pet"
         style={
           {

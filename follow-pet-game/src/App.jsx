@@ -9,7 +9,7 @@ import CountdownTimer from './components/CountDownTimer'
 
 
 function App() {
-  const timeRemaining = 10
+  const timeRemaining = 60
 
 
   const [lastScore, setLastScore] = useState(-1)
@@ -35,12 +35,23 @@ function App() {
 
   //score increase
   useEffect(() => {
-    if (score === 5) setMoveSpeed(2500)
-    if (score === 10) setMoveSpeed(2000)
-    if (score === 15) setMoveSpeed(1500)
-    if (score === 20) setMoveSpeed(1000)
-    if (score === 30) setMoveSpeed(500)
-  }, [score])
+    if (score === 5) setMoveSpeed(2500);
+    else if (score === 10) setMoveSpeed(2000);
+    else if (score === 15) setMoveSpeed(1500);
+    else if (score === 20) setMoveSpeed(1200);
+    else if (score === 30) setMoveSpeed(800);
+    else if (score === 40) setMoveSpeed(600);
+    else if (score === 50) setMoveSpeed(500);
+    else if (score === 60) setMoveSpeed(400);
+    else if (score === 70) setMoveSpeed(350);
+    else if (score === 80) setMoveSpeed(300);
+    else if (score === 90) setMoveSpeed(250);
+    else if (score === 100) setMoveSpeed(200);
+    else if (score === 110) setMoveSpeed(180);
+    else if (score === 120) setMoveSpeed(160);
+    else if (score === 130) setMoveSpeed(140);
+    else if (score === 140) setMoveSpeed(120);
+  }, [score]);
 
   //pet movement (Timeout)
   useEffect(() => {
@@ -123,6 +134,7 @@ function App() {
           <img src="" alt="dog" />
           <img src="" alt="cat" />
           <img src="" alt="hamster" />
+          <img src="" alt="capiKarla :D" />
         </div>
       </section>
 
@@ -144,7 +156,7 @@ function App() {
 
           <TextBlock gameOn={gameOn}>
             <h2>Follow the pets!</h2>
-            <p>Move your mouse over the pets before they disappear!</p>
+            <p>Hover your mouse over the pets before they vanish!</p>
           </TextBlock>
         </GameView>
 
